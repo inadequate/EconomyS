@@ -12,7 +12,7 @@ class BankAdminCommand extends EconomyAPICommand{
 	
 	public function __construct(EconomyAPI $plugin, $cmd = "bankadmin"){
 		parent::__construct($cmd, $plugin);
-		$this->setUsage("/$cmd <takemoney|givemoney> <player> <amount>");
+		$this->setUsage("/$cmd <просмотреть|Дать денег> <игрое> <amount>");
 		$this->setDescription("Manages players' bank account");
 		$this->setPermission("economyapi.command.bankadmin");
 	}
