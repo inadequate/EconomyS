@@ -16,7 +16,7 @@ author: onebone
 commands:
  job:
   description: Job master command
-  usage: /job <join|retire|list|me>
+  usage: /job <рабоьы|retire|лист|me>
   permission: economyjob.command.job
 permissions:
  economyjob.command.*:
